@@ -2,7 +2,7 @@ from scapy.all import ARP, Ether, srp
 import socket
 
 
-target_ip = "10.0.0.1/24"
+target_ip = "<ip>/<subnet>" #192.168.0.1/24
 # IP Address for the destination
 
 # create ARP packet
